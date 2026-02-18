@@ -20,5 +20,9 @@ int main()
     c1.model = 2018;
     c1.price = 90.4;
 
-    cout << "Car name = " << c1.name << " and  Car model = " << c1.model << endl;
+    Car c2;
+    c2.name = "Scorpio";
+
+    cout
+        << "Car name = " << c1.name << " and  Car model = " << c1.model << endl;
 }

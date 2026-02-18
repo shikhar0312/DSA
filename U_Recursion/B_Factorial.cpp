@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+// factorial Normal Method
+
 void factUpto(int n)
 {
     for (int i = 1; i <= n; i++)

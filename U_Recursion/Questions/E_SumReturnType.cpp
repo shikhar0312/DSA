@@ -10,5 +10,5 @@ int sum(int n)
 
 int main()
 {
-    cout << sum(22) << endl;
+    cout << sum(5) << endl;
 }
