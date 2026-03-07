@@ -15,5 +15,14 @@ public:
 
     int main()
     {
+        Node a(4);
+
+        Node b(3);
+        Node c(2);
+        Node d(1);
+
+        a.next = &b;
+        b.next = &c;
+        c.next = &d;
     }
 };
